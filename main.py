@@ -32,7 +32,7 @@ embarked_encoded = {"Cherbourg (C)": 0, "Queenstown (Q)": 1, "Southampton (S)": 
 
 # Fare_log = np.log1p(fare_input + 1)
 #  #apply lof transformations as we trained using log
-fare_log = np.log(fare + 1)
+fare_log = np.log(Fare + 1)
 
 # Predict button
 if st.button("Predict Survival"):

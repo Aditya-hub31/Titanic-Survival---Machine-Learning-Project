@@ -1,0 +1,3 @@
+command to execute the streamlit app after executing main.py --
+streamlit run "d:/Adi doc/Titanic Survival ML-1/main.py"
+or just 
